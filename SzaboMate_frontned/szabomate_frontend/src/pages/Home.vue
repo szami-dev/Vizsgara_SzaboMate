@@ -1,0 +1,31 @@
+<template>
+ <!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ÁLB Ingatlanügynökség</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="openpage.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="start w-100">
+            <h1 class="text-center pt-2 pt-lg-4">Á.L.B. Ingatlanügynöség</h1>
+            <div class="row">
+                <div class="col-12 col-sm-6 text-center">
+                    <router-link class="btn btn-primary" to="/offers">Nézze meg kínálatunkat!</router-link>
+                </div>
+                <div class="col-12 col-sm-6 text-center">
+                    <router-link class="btn btn-primary" to="/adverts">Hirdessen nálunk!</router-link>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
+</template>
